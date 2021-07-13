@@ -1,0 +1,6 @@
+-- GET ORDERS THAT HAVEN'T BEEN SHIPPED
+
+SELECT *
+FROM orders
+WHERE shipped_date IS NULL
+
